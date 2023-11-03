@@ -9,7 +9,7 @@ app.use(cors());
 app.use(express.json());
 
 // Connect to MongoDB (make sure your MongoDB server is running)
-mongoose.connect('mongodb+srv://junjie:junjie55@junjiecluster.1cawbvg.mongodb.net/?retryWrites=true&w=majority&appName=AtlasApp', {
+mongoose.connect('mongodb+srv://junjie:YOUR_PASSWORD@junjiecluster.1cawbvg.mongodb.net/?retryWrites=true&w=majority&appName=AtlasApp', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
